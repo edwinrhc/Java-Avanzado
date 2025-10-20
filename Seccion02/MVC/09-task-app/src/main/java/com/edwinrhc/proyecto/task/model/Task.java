@@ -9,6 +9,17 @@ public class Task {
     private String description;
     private Boolean completed;
 
+    public Task() {
+    }
+
+    public Task(String id, String title, String description, Boolean completed) {
+        this.id = id;
+        this.title = title;
+        this.description = description;
+        this.completed = completed;
+    }
+
+
     public String getId() {
         return id;
     }
