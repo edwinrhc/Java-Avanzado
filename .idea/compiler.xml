@@ -10,8 +10,5 @@
         <module name="09-task-app" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="java-avanzado (1)" target="21" />
-    </bytecodeTargetLevel>
   </component>
 </project>
